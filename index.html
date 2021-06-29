@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+
     <title>NewProvidence</title>
 </head>
 
@@ -11,20 +14,20 @@
     <!--header-->
     <header class="header">
         <div class="header__top">
-            <div class="menu header__menu">
-                <nav class="header__menu-left">
+            <div class="header__navbar">
+                <nav class="menu header-menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <img class="menu__button" src="" alt="">
+                            <img class="menu__btn" src="" alt="">
                         </li>
                         <li class="menu__item">
-                            <a href="#">Tour</a>
+                            <a class="menu__link" href="#">Tour</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#">Features</a>
+                            <a class="menu__link" href="#">Features</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#">Pricing</a>
+                            <a class="menu__link" href="#">Pricing</a>
                         </li>
                     </ul>
                 </nav>
@@ -33,31 +36,31 @@
                         <img class="logo__img" src="" alt="#">
                     </a>
                 </div>
-                <div class="header__menu-right">
-                    <div>
-                        <ul>
-                            <li>
-                                <a class="help__link" href="">Help</a>
+                <div class="header__right-block">
+                    <div class="social header__social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__link" href="">Help</a>
                             </li>
-                            <li>
-                                <a class="contacts__link" href="">Contacts</a>
+                            <li class="social__item">
+                                <a class="social__link" href="">Contacts</a>
                             </li>
-                            <li>
-                                <a class="app__link" href=""><img src="" alt="">Get App</a>
+                            <li class="social__item">
+                                <a class="social__link--blue" href=""><img src="" alt="">Get App</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header-content">
-                <h1> What happens tomorrow?</h1>
-                <p>
+            <div class="header__content">
+                <h1 class="header__title"> What happens tomorrow?</h1>
+                <p class="text header__text">
                     The sight of the tumblers restored Bob Sawyer to a degree of equanimity
                     which he had not possessed since his interview with his landlady.
                     His face brightened up, and he began to feel quite convivial.
                 </p>
-                <div class="video__button">
-                    <button>Watch video</button>
+                <div class="video-btn">
+                    <button class="header__btn btn--white btn">Watch video</button>
                 </div>
             </div>
         </div>
@@ -65,7 +68,7 @@
 
     <!--features-->
     <section class="features">
-        <div class="features__container">
+        <div class="">
             <div class="">
                 <img src="" alt="">
                 <h3>Real-time all the time</h3>
@@ -215,9 +218,13 @@
     <section>
 
     </section>
-    <section>
-
-    </section>
+    <footer class="footer">
+        <div class="logo footer__logo">
+            <a class="logo__link" href="#">
+                <img class="logo__img" src="" alt="#">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
