@@ -1,10 +1,11 @@
-h1, h2, h3{
-    margin: 0;
-    padding: 0;
-}
 
 *{
     box-sizing:border-box;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
 }
 
 /*common styles*/
@@ -26,6 +27,22 @@ a {
 .btn {
     text-decoration: none;
     border: none;
+}
+
+.btn--white {
+    background-color: #eef0f3;
+}
+
+.btn--blue {
+    background-color: #267df4;
+}
+
+.btn--green {
+    background-color: #6fc754;
+}
+
+.btn--black {
+    background-color: #000000;
 }
 
 /*titles*/
@@ -50,6 +67,14 @@ h3 {
 }
 
 /*header*/
+
+.header {
+    background: url('./images/main-img.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
 .header__title{
     font-size: 62px;
 }
@@ -89,10 +114,6 @@ h3 {
     -o-border-radius: 21px;
 }
 
-.btn--blue {
-    background-color: #267df4;
-}
-
 /*header__content*/
 
 .video-btn button {
@@ -109,11 +130,6 @@ h3 {
     -o-border-radius: 25px;
 }
 
-.btn--white {
-    background-color: #eef0f3;
-}
-
-
 /*features*/
 
 .features__title {
@@ -126,3 +142,7 @@ h3 {
     line-height: 26px;
 }
 
+/*iPhone-feature*/
+.iPhone-feature__btn {
+    color: white;
+}
