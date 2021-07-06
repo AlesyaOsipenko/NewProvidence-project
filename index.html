@@ -22,6 +22,7 @@
 <body>
     <!--header-->
     <header class="header">
+        <div class="header__container">
         <div class="header__top">
             <div class="header__navbar">
                 <nav class="menu header__menu">
@@ -61,6 +62,7 @@
                     </div>
                 </div>
             </div>
+        </div>
             <div class="header__content">
                 <h1 class="header__title"> What happens tomorrow?</h1>
                 <p class="text header__text">
@@ -77,6 +79,7 @@
 
     <!--features-->
     <section class="features">
+        <div class="container">
         <div class="features__wrapper">
             <div class="features__element">
                 <img class="features__img" src="" alt="">
@@ -101,14 +104,17 @@
                 </p>
             </div>
         </div>
+    </div>
     </section>
 
     <!--iPhone-feature-->
     <section class="iPhone-feature">
+        <div class="iPhone-feature__container">
         <div class="iPhone-feature__content">
-            <h2 class="iPhone-feature__title">Your day is protected</h2>
+            <h2 class="title iPhone-feature__title">Your day is protected</h2>
             <div class="iPhone-feature__inner">
-                <p class="text iPhone-feature__text">There have not been any since we have lived here, said my mother.</p>
+                <p class="text iPhone-feature__text">There have not been any since we have lived here, said my mother.
+                </p>
                 <p class="text iPhone-feature__text">We thought - Mr. Copperfield thought - it was quite a
                     large rookery; but the nests were very old ones, and the
                     birds have deserted them a long while.</p>
@@ -118,25 +124,26 @@
                 <a class="btn iPhone-feature__btn" href="#">Learn more</a>
             </div>
         </div>
+    </div>
     </section>
 
     <!--Map Feature-->
-    <section class="map-feature">
-        <div class="map-feature__content">
-            <h2 class="map-feature__title">We are almost everywhere</h2>
-            <div class="map-feature__inner">
-                <p class="text map-feature__text">Now the races of these two have been for some ages utterly extinct,
+    <section class="map">
+        <div class="map__content">
+            <h2 class="title map__title">We are almost everywhere</h2>
+            <div class="map__inner">
+                <p class="text map__text">Now the races of these two have been for some ages utterly extinct,
                     and besides to discourse any
                     further of them would not be at all to my purpose.</p>
-                <p class="text map-feature__text">Thus much I thought proper to tell you in relation to yourself, and to
+                <p class="text map__text">Thus much I thought proper to tell you in relation to yourself, and to
                     the trust I reposed in you.
                 </p>
             </div>
-            <div class="map-feature__partners">
-                <strong>partners</strong>
-                <div class="map-feature__logo">
-                    <img class="map-feature__img" src="./css/images/dropbox-logo.png" alt="#">
-                    <img class="map-feature__img" src="./css/images/evernote-logo.png" alt="#">
+            <div class="map__partners">
+                <p class="caption map__caption">partners</p>
+                <div class="map__logo">
+                    <img class="map__img" src="./css/images/dropbox-logo.png" alt="#">
+                    <img class="map__img" src="./css/images/evernote-logo.png" alt="#">
                 </div>
             </div>
         </div>
@@ -145,7 +152,7 @@
     <!--iPhone screens-->
     <section class="screens">
         <hgroup class="title-group">
-            <h2 class="screens__title title">Beautiful Interface</h2>
+            <h2 class="title screens__title">Beautiful Interface</h2>
             <h4 class="screens__subtitle subtitle">landing screen</h4>
         </hgroup>
         <div class="slider screens__slider">
@@ -169,9 +176,10 @@
 
     <!--buy-->
     <section class="buy">
+        <div class="buy__container">
         <hgroup class="title-group">
-            <h4 class="buy__subtitle subtitle">new providence</h4>
-            <h2 class="buy__title title">Get it to your smartphone</h2>
+            <h4 class="buy__subtitle">new providence</h4>
+            <h2 class="title buy__title">Get it to your smartphone</h2>
         </hgroup>
 
         <form class="buy__form form">
@@ -183,67 +191,76 @@
             <span class="buy__text">or Download From</span>
             <a class="buy__btn btn btn--black" href=""><img src=""></a>
         </div>
+    </div>
     </section>
 
     <!--Customers-->
     <section class="customers">
-        <div class="customers__arrows">
-            <a class="customers__arrow--left" href="#"><img src=""></a>
-            <a class="customers__arrow--right" href="#"><img src=""></a>
-        </div>
+        <div class="container">
+        <div class="slider customers__slider">
+            <div class="customers__arrows">
+                <a class="customers__arrow--left" href="#"><img src=""></a>
+                <a class="customers__arrow--right" href="#"><img src=""></a>
+            </div>
 
-        <div class="customers__userpics">
-            <img class="customers__pic" src="" alt="">
-            <img class="customers__pic" src="" alt="">
-            <img class="customers__pic" src="" alt="">
-        </div>
+            <div class="customers__userpics">
+                <img class="customers__pic" src="" alt="">
+                <img class="customers__pic" src="" alt="">
+                <img class="customers__pic" src="" alt="">
+            </div>
 
-        <div class="customers__feedback">
-            <h3 class="customers__title">New Providence is the great UI kit</h3>
-            <blockquote class="customers__quote">Just then her head struck against the roof of the hall: in fact she was
-                now more than nine feet high,
-                and she at once took up the little golden key and hurried off to the garden door.</blockquote>
-            <img class="customers__img" src="" alt="">
-            <strong class="customers__author">Cameron Dowman</strong>
+            <div class="customers__feedback">
+                <h3 class="customers__title">New Providence is the great UI kit</h3>
+                <blockquote class="customers__quote">Just then her head struck against the roof of the hall: in fact she
+                    was
+                    now more than nine feet high,
+                    and she at once took up the little golden key and hurried off to the garden door.</blockquote>
+                <img class="customers__img" src="" alt="">
+                <strong class="customers__author caption">Cameron Dowman</strong>
+            </div>
+        </div>
         </div>
     </section>
 
     <!--Plan-->
     <section class="plan">
         <div class="plan__container">
-            <h2 class="plan__title">Choose your perfect plan</h2>
-            <span class="plan__subtitle"> you are </span>
-            <div class="plan__buttons">
-                <input class="plan__btn" type="radio" placeholder="Individual">
-                <input class="plan__input" type="radio" placeholder="Company">
-            </div>
-            <p class="plan__text">Thus much I thought proper to tell you in relation to yourself, and to the trust I
-                reposed in you.</p>
-            <small class="plan__text text--small">Have a bigger team? <a class="plan__link" href="">Let‘s talk</a></small>
-        </div>
-
-        <div class="plan__wrapper">
-            <div class="inner plan__inner--left">
-                <h3 class="inner__title">Starter</h3>
-                <span class="inner__subtitle">Free</span>
-                <p class="inner__text">Build your schedule every day</p>
-                <ol class="inner__list">
-                    <li class="inner__item">Unlimeted events</li>
-                    <li class="inner__item">Connect Dropbox & Evernote</li>
-                </ol>
-                <a class="btn inner__btn btn--blue" href="">Get started</a>
+            <div class="plan__box">
+                <h2 class="title plan__title">Choose your perfect plan</h2>
+                <span class="plan__subtitle caption"> you are </span>
+                <div class="plan__buttons">
+                    <input class="plan__btn" type="radio" placeholder="Individual">
+                    <input class="plan__input" type="radio" placeholder="Company">
+                </div>
+                <p class="plan__text">Thus much I thought proper to tell you in relation to yourself, and to the trust I
+                    reposed in you.</p>
+                <small class="plan__text text--small">Have a bigger team? <a class="plan__link" href="">Let‘s
+                        talk</a></small>
             </div>
 
-            <div class="inner plan__inner--right">
-                <h3 class="inner__title">Pro</h3>
-                <span class="inner__subtitle">$4.99</span>
-                <p class="inner__text">Make your life better</p>
-                <ol class="inner__list">
-                    <li class="inner__item">Unlimeted events</li>
-                    <li class="inner__item">Connect Dropbox & Evernote</li>
-                    <li class="inner__item">Personal Assistant</li>
-                </ol>
-                <a class="inner__btn" href="">Make me a Pro</a>
+            <div class="plan__wrapper">
+                <div class="inner plan__inner--left">
+                    <h3 class="inner__title">Starter</h3>
+                    <span class="inner__subtitle caption">Free</span>
+                    <p class="inner__text">Build your schedule every day</p>
+                    <ol class="inner__list">
+                        <li class="inner__item">Unlimeted events</li>
+                        <li class="inner__item">Connect Dropbox & Evernote</li>
+                    </ol>
+                    <a class="btn inner__btn btn--blue" href="">Get started</a>
+                </div>
+
+                <div class="inner plan__inner--right">
+                    <h3 class="inner__title">Pro</h3>
+                    <span class="inner__subtitle caption">$4.99</span>
+                    <p class="inner__text">Make your life better</p>
+                    <ol class="inner__list">
+                        <li class="inner__item">Unlimeted events</li>
+                        <li class="inner__item">Connect Dropbox & Evernote</li>
+                        <li class="inner__item">Personal Assistant</li>
+                    </ol>
+                    <a class="inner__btn" href="">Make me a Pro</a>
+                </div>
             </div>
         </div>
     </section>
@@ -260,6 +277,7 @@
 
     <!--footer-->
     <footer class="footer">
+        <div class="footer__container">
         <div class="footer__top">
             <div class="footer__top-content">
                 <div class="logo footer__logo">
@@ -270,76 +288,77 @@
                 <p class="footer__text">It was some time before he obtained any answer, and the reply, when made, was
                     unpropitious.</p>
                 <a class="btn footer__btn btn--black" href=""></a>
-                    <ul class="footer__social-list">
-                        <li class="footer__social-item">
-                            <a class="footer__social-link" href=""><img src="#" alt="#"></a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href=""><img src="#" alt="#"></a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href=""><img src="#" alt="#"></a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href=""><img src="#" alt="#"></a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href=""><img src="#" alt="#"></a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href=""><img src="#" alt="#"></a>
-                        </li>
-                    </ul>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href=""><img src="#" alt="#"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href=""><img class="social__img" src="#" alt="#"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href=""><img class="social__img" src="#" alt="#"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href=""><img class="social__img" src="#" alt="#"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href=""><img class="social__img" src="#" alt="#"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href=""><img class="social__img" src="#" alt="#"></a>
+                    </li>
+                </ul>
             </div>
         </div>
 
         <div class="footer__inner">
             <div>
-                <h3 class="footer__title">Information</h3>
-                <ul class="more-info__list">
-                    <li class="more-info__list-item"><a class="more-info__list-link" href="#">About us</a>
+                <h3 class="footer__title">Learn more</h3>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">How it works?</a>
                     </li>
-                    <li class="more-info__list-item"><a class="more-info__list-link" href="#">Features</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Meeting tools</a>
                     </li>
-                    <li class="more-info__list-item"><a class="more-info__list-link" href="#">Privacy Policy</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Live striming</a>
                     </li>
-                    <li class="more-infon__list-item"><a class="more-info__list-link" href="#">Terms&Conditions</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Contact method</a>
                     </li>
                 </ul>
             </div>
 
             <div class="information">
                 <h3 class="footer__title">Information</h3>
-                <ul class="information__list">
-                    <li class="information__list-item"><a class="information__list-link" href="#">About us</a>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer__lfooterist-link" href="#">About us</a>
                     </li>
-                    <li class="information__list-item"><a class="information__list-link" href="#">Features</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Features</a>
                     </li>
-                    <li class="information__list-item"><a class="information__list-link" href="#">Privacy Policy</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Privacy Policy</a>
                     </li>
-                    <li class="information__list-item"><a class="information__list-link" href="#">Terms&Conditions</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Terms&Conditions</a>
                     </li>
                 </ul>
             </div>
 
             <div class="support">
                 <h3 class="footer__title">Support</h3>
-                <ul class="support__list">
-                    <li class="support__list-item"><a class="support__list-link" href="#">F.A.Q.</a>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">F.A.Q.</a>
                     </li>
-                    <li class="support__list-item"><a class="support__list-link" href="#">Contact us</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Contact us</a>
                     </li>
-                    <li class="support__list-item"><a class="support__list-link" href="#">Live chat</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Live chat</a>
                     </li>
-                    <li class="support__list-item"><a class="support__list-link" href="#">Phone call</a>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Phone call</a>
                     </li>
                 </ul>
             </div>
         </div>
+    </div>
 
         <div class="footer__bottom">
-                <p class="footer__copyright">For more freebies visit:<a
-                        href="http://getcraftwork.com">http://getcraftwork.com</a></p>
+            <p class="footer__copyright">For more freebies visit:<a
+                    href="http://getcraftwork.com">http://getcraftwork.com</a></p>
             <div class="footer__column">
                 <span class="footer__column-text">Made with Love by</span>
                 <img class="footer__column-logo" src="#" alt="#">
